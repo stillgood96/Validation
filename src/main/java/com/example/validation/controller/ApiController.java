@@ -33,7 +33,7 @@ public class ApiController {
       return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(sb.toString());
     }
 
-    System.out.println(user);
+    System.out.println(user.toString());
 
     return ResponseEntity.ok(user);
   }
